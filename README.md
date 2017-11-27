@@ -3,6 +3,8 @@ A 3ds Max script to save key positons of the face witch is controlled with slide
 
 ![ScreenShot](https://github.com/Bredm1/3ds-Max-Face-Pose-Saver/blob/master/FPS.png)
 
+Video Link: https://www.youtube.com/watch?v=4LZsYWp2olg
+
 ABOUT THE SCRIPT:
 It's a tool for animators to save key face poses and speed up work. It's gets the position of the selected sliders and do a snapsot on the viewport and save as a button. First you have to set the "CHR" as the charachter name and set the path where the picurates begin saved.
 
