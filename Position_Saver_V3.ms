@@ -135,7 +135,7 @@ rollout P_S "Pose Saver" width:430 height:750
 	
 	copy view_pic thumb_pic -- a view kepet belekopizza az uresbe ezzel atmeretezi
 	
-	re_Butt.images = #(thumb_pic, undefined, 1,1,1,1,1 ) -- rarakja a képet a definialt gombra
+	re_Butt.images = #(thumb_pic, undefined, 1,1,1,1,1 ) -- rarakja a kÃ©pet a definialt gombra
 	
 	thumb_pic.filename = pic_path + saved_name -- a kep megkapja a lementes helyet es nevet
 	
@@ -149,7 +149,7 @@ rollout P_S "Pose Saver" width:430 height:750
 	
 	fn SET_PROJECT_PATH = -- MAKES WINDOW WHERE 
 	(
-		new_path = getSavePath caption:"Set projecth path"
+		new_path = getSavePath caption:"Set projecth path" + "/"
 		
 		pic_path = new_path
 		
